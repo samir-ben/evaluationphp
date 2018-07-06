@@ -29,7 +29,7 @@
         <hr>
         <p class="text-justify">Résultats obtenus en local:</p>
         <ul>
-            <li>Durée appel : <strong>18745505</strong>. Dans le fichier CSV, j'ai vu que dans les deux colonnes concernant les volumes il y a des cellules aux formats '00:00:00' et qui rendent "0" une fois dans la table MySQL. Je me suis demandé s'il fallait les convertir et les inclures mais elles correspondent à chaque fois à un "rappel de SFR, d'un contact" et non d'une connexion 3G ou un appel émis en volume, c'est pourquoi j'en ai pas tenu compte dans ma requête en les considérant comme "0" volume. C'est peut-être une erreur de ma part.</li>
+            <li>Durée appel : <strong>16476330</strong>. Dans le fichier CSV, j'ai vu que dans les deux colonnes concernant les volumes il y a des cellules aux formats '00:00:00' et qui rendent "0" une fois dans la table MySQL. Je me suis demandé s'il fallait les convertir et les inclures mais elles correspondent à chaque fois à un "rappel de SFR, d'un contact" et non d'une connexion 3G ou un appel émis en volume, c'est pourquoi j'en ai pas tenu compte dans ma requête en les considérant comme "0" volume. C'est peut-être une erreur de ma part.</li>
             <li>Top 10: (1) 97257; (2) 85811; (3) 60923; (4) 54731; (5) 52698; (6) 49683; (7) 32681; (8) 28654; (9) 13167; (10) 7707;</li>
             <li> Nombre SMS : <strong>11577</strong></li>
         </ul>
