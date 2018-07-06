@@ -18,9 +18,9 @@
     Database::import();
 
     // Requête et affichage du résultat
-    $query = $db->query("SELECT sum(duree_volume_reel) FROM call_tickets WHERE date_appel <= '15/02/2012';");
+    $query = $db->query("SELECT sum(duree_volume_reel) FROM call_tickets WHERE date_appel >= '15/02/2012';");
     $response = $query->fetch();
-    echo '<div class="container py-3"><p>La durée totale réelle des appels effectués après le 15/02/2012 (inclus) est de <strong>' . $response[0]  . '</strong>.</p></div>';
+    echo '<div class="container py-3"><p>La durée totale réelle des appels effectués après le 15/02/2012 (inclus) est de <strong>' . $response[0]  . '</strong>.</p></div>';
 
     
     Database::disconnect();
